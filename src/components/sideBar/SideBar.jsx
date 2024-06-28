@@ -36,7 +36,7 @@ const SideBar = () => {
 
   return (
     <div className="sidebar">
-      <h1>SocialVeins</h1>
+      <h1>Keek</h1>
       <div className="menuWrapper">
       {menuItems.map((items) => (
           <Item
