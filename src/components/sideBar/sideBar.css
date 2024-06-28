@@ -1,0 +1,160 @@
+.sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 260px;
+  background-color: rgb(47, 51, 73);
+  padding: 5px 20px;
+  z-index: 99;
+ font-size: 15px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgba(208, 212, 241, 0.78);;
+}
+
+.menuWrapper{
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+.menu-items,.menu-items-active {
+ padding:0px 20px;
+  margin: 1px ;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color:#ACB0CC;
+}
+
+.menu-items:hover{
+
+    background-color:#7e7e7e;
+}
+
+.menu-items-active {
+  background: linear-gradient(45deg, #f70f7b, #70284a);
+  color: white;
+}
+
+h4{
+    padding: 0 20px;
+    color: #ACB0CC;
+}
+
+@media screen and (max-width: 1440px) {
+
+  .sidebar {
+ 
+    width: 200px;
+   font-size: small;
+  }
+  
+}
+@media screen and (max-width: 1024px) {
+
+  .sidebar {
+ 
+    width: 200px;
+   font-size: small;
+  }
+  
+}
+@media screen and (max-width: 768px) {
+
+  .sidebar {
+ 
+    width: 150px;
+   font-size: 12px;
+  }
+  
+}
+
+/* light mode */
+
+#light .sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 260px;
+  background-color: white;
+  padding: 5px 20px;
+  z-index: 99;
+ font-size: 15px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgba(245, 52, 52, 0.78);
+}
+
+#light .menuWrapper{
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+#light .menu-items,.menu-items-active {
+ padding:0px 20px;
+  margin: 1px ;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color:#596194;
+}
+
+#light .menu-items:hover{
+
+    background-color:#7e7e7e;
+}
+
+#light .menu-items-active {
+  background: linear-gradient(45deg, #f70f7b, #70284a);
+  color: white;
+}
+
+h4{
+    padding: 0 20px;
+    color: #ACB0CC;
+}
+
+@media screen and (max-width: 1440px) {
+
+  #light .sidebar {
+ 
+    width: 200px;
+   font-size: small;
+  }
+  
+}
+@media screen and (max-width: 1024px) {
+
+  #light .sidebar {
+ 
+    width: 200px;
+   font-size: small;
+  }
+  
+}
+@media screen and (max-width: 768px) {
+
+ #light .sidebar {
+ 
+    width: 150px;
+   font-size: 12px;
+  }
+  
+}
+
